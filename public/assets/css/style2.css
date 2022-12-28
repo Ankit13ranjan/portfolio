@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav Bar List */
+ul li a{
+    text-decoration: none;
+    color: rgb(7, 6, 8);
+}
+ul li{
+    list-style: none;
+}
+ul{
+    display: flex;
+}
+li{
+    padding: 25px;
+    font-size: 1.3rem;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: rgb(218, 105, 105);
+    border-radius: 8px;
+    padding: 6px;
+}
+
+/* bars */
+
+.bars{
+    height: 75px;
+    color: white;
+    /* overflow: hidden;   */
+    /* position: fixed; */
+    /* background-color: black; */
+}
+.bars::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 10.4;
+}
+
+
+/* Home */
+#home{
+    height: 431px;
+}
+#home::before{
+    content: "";
+    background: url(/image/img.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 601px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 7.9;
+}
+
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.heading{
+    margin: 0px 151px;
+    color: orangered;
+}
+
+/* About */
+.self{
+    background-color: rgb(226, 193, 178);
+    /* background-image: linear-gradient(red, yellow); */
+    /* height: 85px; */
+    padding: 25px;
+    border-radius: 6px;
+    margin: 0px 151px;
+}
+
+.text{
+    background-color: white;
+    margin: 10px 150px;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    padding: 11px;
+}
+
+
+html{
+    scroll-behavior:smooth;
+}
+
+
+
+
+
+
+.space{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Fixed */
+h1{
+    font-size: 2.3rem;
+}
+
+.self1{
+    background-color: rgb(226, 193, 178);
+    /* background-image: linear-gradient(red, yellow); */
+    /* height: 85px; */
+    padding: 25px;
+    margin: 0px 151px;
+    border-radius: 6px;
+    display: flex;
+}
+
+
+.text2{
+    background-color: rgb(189, 29, 29);
+    margin: 10px 21px 0px 150px;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    /* height: 401px; */
+    padding: 5px;
+}
+
+
+.training{
+    /* height: 155px; */
+    width: 555px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.project{
+    /* height: 155px; */
+    width: 555px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+}
+
+#trainingcolor{
+    color: rgb(110, 19, 133);
+}
+#projectcolor{
+    color: rgb(110, 19, 133);
+}
+
+#subtrainingcolor{
+    color: rgb(30, 97, 197);
+}
+
+#institute{
+    margin-left: 421px;
+}
+
+.exp_section{
+    padding: 15px;
+}
+
+
+
+.formarea{
+    background-color: rgb(69, 111, 226);
+    /* height: 500px; */
+    /* padding: 15px; */
+    display: flex;
+    justify-content: center;
+    gap: 301px;
+    
+}
+
+.contactcolor{
+    color: rgb(233, 236, 56);
+    /* padding: 25px; */
+    margin-left: 35px;
+    margin-bottom: 15px;
+}
+.form{
+    margin-left: 51px;
+    padding: 25px;
+    
+}
+
+.contactbox{
+    border-radius: 6px;
+    padding: 8px;
+    border: none;
+}
+
+
+.basicdetails{
+    color: rgb(131, 230, 74);
+    margin: 11px;
+}
+
+#submitbutton{
+    background-color: rgb(190, 115, 252);
+    padding: 8px;
+    margin-left: 101px;
+    margin-top: 15px;
+    border: 2px solid rgb(245, 202, 63);
+    border-radius: 8px;
+    color: rgb(233, 248, 28);
+    font-size: 0.9rem;
+}
+
+.details{
+    padding: 25px;
+    /* margin-left: 15px; */
+}
+
+.detail_self{
+    padding: 11px;
+    color: rgb(142, 255, 127);
+}
+
+
+#links{
+    display: flex;
+    /* background-color: blue; */
+    margin: 6px;
+    justify-content: flex-start;
+}
+
+.linkplatform{
+    margin: 6px;
+}
+
+
+
+.skill-progress {
+    display: inline-block;
+    width: 6rem;
+    height: 2.2rem;
+    background-color: lightgrey;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
+    margin: 11px;
+    overflow: hidden;
+    /* text-align: center */
+}
+
+.skill-name span {
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.skill-progress > div {
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 1px 1px 5px 2px #989882;
+}
+
+
+.typeone{
+    display: inline-block;
+    margin-right: 85px;
+}
+
+/* Color-Box */
+
+.redcolor{
+    background-color: red;
+}
+.redishcolor{
+    background-color: rgb(235, 21, 153);
+}
+.purplecolor{
+    background-color: purple;
+}
+.navycolor{
+    background-color: aqua;
+}
+.bluecolor{
+    background-color: blue;
+}
+.greencolor{
+    background-color: rgb(51, 255, 0);
+}
+.greenishcolor{
+    background-color: rgb(29, 209, 89);
+}
+.brownishcolor{
+    background-color: rgb(255, 166, 0);
+}
+
+.orangecolor{
+    background-color: orange;
+}
+
+.mangocolor{
+    background-color: rgb(238, 255, 0);
+}
+
+.purpleycolor{
+    background-color: rgb(174, 0, 255);
+}
+
+
+
+.voiletcolor{
+    background-color: rgb(111, 0, 255);
+}
+
+.purpleishcolor{
+    background-color: rgb(0, 68, 255);
+}
+
+.browncolor{
+    background-color: rgb(85, 59, 3);
+}
+
+.orangeishcolor{
+    background-color: #ffae00;
+}
+
+
+
+
+/* Height-Area */
+
+.eighty-percent {
+    height: inherit;
+    width: 80%;
+}
+
+.fifty-five-percent {
+    height: inherit;
+    width: 55%;
+}
+
+
+.sixty-five-percent {
+    height: inherit;
+    width: 65%;
+}
+
+.eighty-five-percent {
+    height: inherit;
+    width: 85%;
+}
+
+.ninety-percent {
+    height: inherit;
+    width: 90%;
+}
+.seventy-five-percent {
+    height: inherit;
+    width: 75%;
+}
+
+
+
+/* .font{
+    display: flex;
+
+} */
